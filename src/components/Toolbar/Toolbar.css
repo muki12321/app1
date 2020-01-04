@@ -30,7 +30,7 @@
     height: 650px;
 }
 .root main .menu{
-    flex-grow: 0;
+    flex-grow: 1;
     background-color: #E8E9EB;
 }
 .root main .menu .options{
@@ -50,9 +50,27 @@
 }
 .root main .menu .options #down{
     padding: 0 0 0 180px;
+    
+}
+.root main .menu .options #down:hover{
+    cursor: pointer;
+}
+.root main .menu #apps #dropmenu{
+    width: 312px;
+    height: 60px;
+    list-style: none;
+    font-size: 18px;
+    display: none;
+}
+.root main .menu #apps #dropmenu li{
+   height: 25px;
+   line-height: 30px;
+}
+.root main .menu #apps #dropmenu.active{
+    display: block;
 }
 .root main .sadrzaj{
-    flex-grow: 228;
+    flex-grow: 200;
     background-color: #ffffff;
     margin: 30px;
     font-size: 40px;
