@@ -17,7 +17,6 @@ const Toolbar = props => (
                 <div className = 'options' id = 'start'><i class="fas fa-home"></i>Start</div>
                 <div className = 'options' id = 'apps'>
                     <i class="fas fa-bars"></i>Web apps<i id = 'down' class="fas fa-angle-down"></i>
-                
                 </div>
             </div>
             <div className = 'sadrzaj'>

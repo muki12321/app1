@@ -30,7 +30,7 @@
     height: 650px;
 }
 .root main .menu{
-    flex-grow: 1;
+    flex-grow: 0;
     background-color: #E8E9EB;
 }
 .root main .menu .options{
