@@ -27,7 +27,7 @@
 .root main{
     display: flex;
     width: 100%;
-    height: 650px;
+    height: 800px;
 }
 .root main .menu{
     flex-grow: 1;
@@ -55,20 +55,20 @@
 .root main .menu .options #down:hover{
     cursor: pointer;
 }
-.root main .menu #apps #dropmenu{
+.root main .menu #apps .dropmenu{
     width: 312px;
     height: 60px;
     list-style: none;
     font-size: 18px;
-    display: none;
 }
-.root main .menu #apps #dropmenu li{
+.root main .menu #apps .dropmenu li{
    height: 25px;
    line-height: 30px;
 }
-.root main .menu #apps #dropmenu.active{
-    display: block;
-}
+a{
+    color: #295B72;
+    text-decoration: none;
+ }
 .root main .sadrzaj{
     flex-grow: 200;
     background-color: #ffffff;
